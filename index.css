@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* custom.css */
+body{
+    background-color: #ccfccb !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px !important;
+}
+
+
+.navbar {
+    background-color: #10451d !important;
+}
+
+
+.navbar-brand{
+    align-items: center !important;
+    display: flex !important;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.navbar-brand span {
+    color: goldenrod;
+    font-size: 35px;
+    padding: 2px;
+    font-family: 'Lemon', serif;
+}
+
+.navbar-brand span:hover {
+    color: white;
+}
+
+#tasksection{
+    width: 80%;
+    /* background-color: red; */
+    margin: 5px auto;
+    padding: 2em;
+    max-width: 700px;
+}
+
+#taskForm{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.task, .add, .del, .done{
+    padding: 0.4em !important;
+}
+
+
+li{
+    cursor: pointer;
+    color: white;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background-color: #5b9279 !important;
+    margin-bottom: 0.6em !important;
+    padding: 0.3em !important;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+.del{
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.del:hover{
+    background-color: #8d0801;
+}
+
+.add{
+    color: white;
+    background-color: #28a745;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: #1b512d;
+}
+
+
+.done{
+    color: white;
+    background-color: rgb(1, 83, 177);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.done:hover{
+    background-color: #0b3954;
+
+}
+
+.item, .task{
+    flex: 1;
+}
+
+
+.item{
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.task{
+    cursor: pointer;
+}
+
+
+
